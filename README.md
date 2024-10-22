@@ -43,7 +43,7 @@ Este proyecto ha sido desarrollado con las siguientes tecnologías:
     ``docker run -d --name redis -p 6379:6379 redis``
   - 3.Crear el contenedor de la API.<br>
     ``docker build -t refaccionariadocker:1 .``<br>
-    Una vez hecho esto y que los otros dos contenedores esten corriendo, ingresa el siguiente comando en la terminal.
+    Una vez hecho esto y que los otros dos contenedores esten corriendo, ingresa el siguiente comando en la terminal.<br>
     ``docker run -d -p 3000:3000 --name refaccionariad refaccionariadocker:1``
 
 ## Uso de la API 🌐<br>
