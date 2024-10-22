@@ -49,3 +49,7 @@ Este proyecto ha sido desarrollado con las siguientes tecnologías:
 ## Uso de la API 🌐<br>
 Una vez hecho todo lo anterior, la API estará disponible en swagger para verificar el funcionamiento de los endpoint, ingresando la siguiente URL en el navegador de tu prefrencia.<br>
 ``http://localhost:3000/Swagger/``
+
+>[!NOTE]
+>Para el alta de clientes o para los métodos GET en ambas entidades, para los ID solo basta con que en DataGrip ingreses el siguiente comando
+>``db.Clientes.find();`` o ``db.Piezas.find();``
