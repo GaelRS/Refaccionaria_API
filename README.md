@@ -71,5 +71,5 @@ Una vez hecho todo lo anterior, la API estará disponible en swagger para verifi
 
 >❗NOTA<br>
 >Para el alta de clientes o para los métodos GET en ambas entidades, para los ID solo basta con que en DataGrip ingreses el siguiente comando
->``db.Clientes.find();`` o ``db.Piezas.find();``
+>``db.Clientes.find();`` o ``db.Piezas.find();``<br>
 >NO SUBIR CAMBIOS A GIT
